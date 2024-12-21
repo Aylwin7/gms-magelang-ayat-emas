@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 3rem;
+  margin: 2rem; 
+
+  pointer-events: none;
+}
+
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.App-link {
+  color: #61dafb;
+}
