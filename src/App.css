@@ -1,23 +1,41 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  height: 100vh;
+  min-height: 95vh;
+  padding-bottom: 5vh;
+  display: grid;
 }
 
 .App-logo {
   height: 3rem;
   margin: 2rem; 
-
   pointer-events: none;
 }
 
 
 .App-header {
-  min-height: 10vh;
   display: flex;
   justify-content: flex-end;  
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  position: relative;
+  width: 100%;
+  background-color: yellow;
+  overflow-x: hidden;
+}
+.save-button-container {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.save-button {
+  padding: 1rem;
+  background-color: gray;
+  color: aliceblue;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
